@@ -31,3 +31,8 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+li:first-child {
+  background-color: #111;
+  padding: 0px 8px 0px 8px;
+}
