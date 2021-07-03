@@ -1,5 +1,5 @@
 h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: cursive;  
   text-align: center;
   padding: 30px;
 }
@@ -29,10 +29,24 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: slategray;
 }
 
 li:first-child {
-  background-color: #111;
+  background-color: rgb(29, 29, 29);
   padding: 0px 8px 0px 8px;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#sisters {
+  height: auto;
+  width: 600px;
+  max-width: 100%;
+  padding: 15px 0px 0px 0px;
+  
 }
