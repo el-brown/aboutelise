@@ -50,3 +50,19 @@ li:first-child {
   padding: 15px 0px 0px 0px;
   
 }
+
+footer {
+  justify-content: center;
+}
+
+footer h5 {
+  display: inline;
+}
+
+#l_icon {
+  height: 50px;
+  width: 50px;
+  display: inline;
+  padding-left: 8px;
+}
+
