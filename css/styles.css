@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* SOMEHOW CENTER THIS */
+}
+
 h1 {
   font-family: cursive;  
   text-align: center;
@@ -9,6 +15,8 @@ h2 {
 }
 
 nav {
+  width: 600px;
+
 
 }
 
@@ -75,12 +83,19 @@ footer h5 {
   float: right;
 }
 
+#page {
+  display:flex;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  margin: 2em;
+}
 
 #box {
+  flex-direction: column;
   display: flex;
-  align-items: stretch;
-  margin: 30px;
-  padding: 50px;
+  justify-content: center;
 }
 
 #box a {
@@ -98,20 +113,18 @@ footer h5 {
 }
 
 #one, #two, #three, #four { 
-  height: 100px;
-  width: 100px;
-  flex: 1 0 auto;
+  height: 6em;
+  width: 6em;
   border: 5px solid black;
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 #origin {
   height:auto;
   width: 90%;
   max-width: 100%;
-  margin:30px;
-  padding: 30px;
+
 }
 
 /* POPUP */
