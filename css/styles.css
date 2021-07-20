@@ -60,15 +60,25 @@ li:first-child {
   
 }
 
-footer h5 {
-  display: inline;
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(106, 195, 230);
+  margin-top: 2em;
 }
 
-#l_icon {
+footer #item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#item {
   height: 50px;
   width: 50px;
   display: inline;
-  padding-left: 8px;
+  padding-left: 20px;
 }
 
 #wonderland {
