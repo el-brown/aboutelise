@@ -1,7 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
-  /* SOMEHOW CENTER THIS */
+  max-width: 800px;
+  margin: auto;
 }
 
 h1 {
@@ -15,8 +14,6 @@ h2 {
 }
 
 nav {
-  width: 600px;
-
 
 }
 
@@ -57,7 +54,7 @@ li:first-child {
 
 #sisters {
   height: auto;
-  width: 600px;
+  width: 650px;
   max-width: 100%;
   padding: 15px 0px 0px 0px;
   
@@ -85,17 +82,17 @@ footer h5 {
 
 #page {
   display:flex;
-  width: 700px;
-  justify-content: center;
+  flex-wrap:wrap;
+  max-width: 800px;
+  margin: auto;
   align-items: center;
-  padding: 2em;
-  margin: 2em;
+  justify-content: center;
 }
 
 #box {
-  flex-direction: column;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  margin-top: 2em;
 }
 
 #box a {
