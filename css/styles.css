@@ -1,5 +1,5 @@
 body {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -54,7 +54,7 @@ li:first-child {
 
 #sisters {
   height: auto;
-  width: 650px;
+  width: 850px;
   max-width: 100%;
   padding: 15px 0px 0px 0px;
   
@@ -93,7 +93,7 @@ footer #item{
 #page {
   display:flex;
   flex-wrap:wrap;
-  max-width: 800px;
+  max-width: 1100px;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -120,6 +120,9 @@ footer #item{
 }
 
 #one, #two, #three, #four { 
+  display:flex;
+  justify-content:center;
+  align-items: center;
   height: 6em;
   width: 6em;
   border: 5px solid black;
@@ -128,6 +131,7 @@ footer #item{
 }
 
 #origin {
+  margin-top: 2em;
   height:auto;
   width: 90%;
   max-width: 100%;
@@ -187,3 +191,10 @@ footer #item{
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+#truths {
+  margin-top: 2em;
+  font-size: 1.3em;
+  line-height: 2;
+}
+
