@@ -57,7 +57,7 @@ li:first-child a:hover {
 }
 .content {
   margin: 0;
-  padding: 0;
+  padding: 100px;
   text-align: center;
 }
 
@@ -110,19 +110,22 @@ footer li:first-child {
   float: right;
 }
 
-#page {
+.page {
   display:flex;
   flex-wrap:wrap;
-  max-width: 1100px;
-  margin: auto;
+  max-width: 100%;
+  margin: 0 20px 0 20px;
   align-items: center;
   justify-content: center;
+  background-color: white;
+
 }
 
 #box {
   display: flex;
   flex-direction: row;
   margin-top: 2em;
+  max-width: inherit;
 }
 
 #box a {
@@ -216,5 +219,6 @@ footer li:first-child {
   margin-top: 2em;
   font-size: 1.3em;
   line-height: 2;
+  padding: 1em 1.5em 2em 1.5em;
 }
 
