@@ -1,6 +1,5 @@
 body {
-  max-width: 1000px;
-  margin: auto;
+  margin: 0;
 }
 
 h1 {
@@ -26,7 +25,8 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
+  padding-right:20px;
 }
 
 li a {
@@ -46,17 +46,32 @@ li:first-child {
   padding: 0px 8px 0px 8px;
 }
 
+li:first-child a:hover {
+  background-color: rgb(29, 29, 29);
+  color:rgb(106, 195, 230)
+}
+
+#elise {
+  float: left;
+}
 .content {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(29, 29, 29);
+}
+
 #sisters {
   height: auto;
-  width: 850px;
+  width: 1182px;
   max-width: 100%;
-  padding: 15px 0px 0px 0px;
+  padding: 8px;
   
 }
 
@@ -64,7 +79,6 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: rgb(106, 195, 230);
-  margin-top: 2em;
 }
 
 footer #item{
@@ -79,6 +93,11 @@ footer #item{
   width: 50px;
   display: inline;
   padding-left: 20px;
+}
+
+footer li:first-child {
+  padding-right: 50px;
+  
 }
 
 #wonderland {
