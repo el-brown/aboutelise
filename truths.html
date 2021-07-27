@@ -18,7 +18,7 @@
     <div class="page">      
       <form id="truths" onSubmit="return false;">
         <fieldset>
-          <legend><strong>Some Truths and A Lie</strong> </legend>
+          <legend><strong><h2>Some Truths and A Lie</h2></strong> </legend>
           <input type="radio" name="truths" value="bear" />
           I fed a bear an ice cream cone
           <br />
@@ -46,7 +46,13 @@
         </fieldset>
       </form>
       <p id="result"></p>
+
+      <h2>Guess my age</h2><br />
+      <input type="text" id="age" /> 
+      <button onclick="checkAge()">Guess</button>
+      <p id="ageanswer"></p>
     </div>
+
 
   <footer>
     <nav>

@@ -6,3 +6,9 @@ function checkResult() {
     else document.getElementById("result").innerHTML = "Lie";
 }
 
+function checkAge() {
+  var age = document.getElementById("age").value;
+  console.log(age);
+  if (age == 33) document.getElementById("ageanswer").innerHTML = "Got it!";
+    else document.getElementById("ageanswer").innerHTML = "Nope!"
+}
