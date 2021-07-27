@@ -195,19 +195,9 @@ footer li:first-child {
   padding: 1em 1.5em 2em 1.5em;
 }
 
-#projectphoto {
-  background-image: url("/images/spaghetti.jpeg");
-  color:white;
-  margin: 0;
-  padding: 60px 300px 400px 40px;
-  width: 1600px;
-  max-width: 100%;
+#spaghetti {
   height: auto;
-}
-
-#projectparagraphs {
-  background: rgb(39, 28, 18);
-  border:rgb(29, 29, 29) solid 10px;
-  padding: 20px;
-  width: 50%;
+  width: 70%;
+  max-width: 100%;
+  float: right;
 }
