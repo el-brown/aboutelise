@@ -149,10 +149,6 @@ footer li:first-child {
   padding: 10px 30px 12px 30px;
 }
 
-#age #guess {
-  display: inline;
-}
-
 #box {
   display: flex;
   flex-direction: row;
