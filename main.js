@@ -2,8 +2,8 @@
 
 function checkResult() {
   var value = document.getElementById("truths").elements["truths"].value;
-  if (["bear","garage","ghost","nile","hospital","nazis"].includes(value)) document.getElementById("result").innerHTML = "Truth"
-    else document.getElementById("result").innerHTML = "Lie";
+  if (["bear","garage","ghost","nile","hospital","nazis"].includes(value)) document.getElementById("result").innerHTML = "Fact."
+    else document.getElementById("result").innerHTML = "That's the lie";
 }
 
 function checkAge() {

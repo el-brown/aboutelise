@@ -120,6 +120,39 @@ footer li:first-child {
 
 }
 
+#gamepage {
+  display:flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 20px 0 20px;
+  padding-bottom: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+#result {
+  float:right;
+  background-color: rgb(178, 228, 248);
+  border:rgb(85, 85, 85) solid 3px;
+  color:rgb(59, 59, 59);
+  margin: 20px;
+  padding: 10px 30px 12px 30px;
+}
+
+#ageanswer {
+  float:right;
+  background-color: rgb(178, 228, 248);
+  border:rgb(85, 85, 85) solid 3px;
+  color:rgb(59, 59, 59);
+  margin: 20px;
+  padding: 10px 30px 12px 30px;
+}
+
+#age #guess {
+  display: inline;
+}
+
 #box {
   display: flex;
   flex-direction: row;

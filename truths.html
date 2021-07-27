@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <div class="page">      
+    <div id="gamepage">      
       <form id="truths" onSubmit="return false;">
         <fieldset>
           <legend><strong><h2>Some Truths and A Lie</h2></strong> </legend>
@@ -42,14 +42,15 @@
           </select>
           <br />
           <br />
-          <button onclick="checkResult()">Submit</button>
+          <button onclick="checkResult()">Submit</button><p id="result"></p>
         </fieldset>
       </form>
-      <p id="result"></p>
+      
 
-      <h2>Guess my age</h2><br />
-      <input type="text" id="age" /> 
+      <h2 id="guess">Guess my age</h2>
+      <p><input type="text" id="age" /></p>
       <button onclick="checkAge()">Guess</button>
+      <br />
       <p id="ageanswer"></p>
     </div>
 
