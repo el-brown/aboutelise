@@ -239,7 +239,5 @@ footer li:first-child {
 }
 
 #catagories li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  display: inline;
 }
