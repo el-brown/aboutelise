@@ -24,7 +24,7 @@ ul {
   background-color: rgb(106, 195, 230);
 }
 
-li {
+ul li {
   float: right;
   padding-right:20px;
 }
@@ -238,6 +238,7 @@ footer li:first-child {
   border: rgb(59, 59, 59) solid;
 }
 
-#catagories li {
-  display: inline;
+#catagories {
+  list-style-type: disc;
+  line-height: 22px;
 }
